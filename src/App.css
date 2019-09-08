@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  max-width: calc(100% - 30px);
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px){
+  .App{
+    max-width: 768px;
+  }
+}
+
+a{
+  text-decoration: none;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.notfound{
+  color: gray;
+  opacity: 0.5;
+}
+
+.dflex{
+  display: flex;
+}
+
+.period{
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.backbt a, .backbt a:focus, .backbt a:visited{
+  margin-top: 20px;
+  color: dimgray;
+  display: inline-block;
+  background-color: ghostwhite;
+  padding: 2px 5px;
+  border: 1px solid gray;
+}
+
+.backbt a:hover{
+  color:darkred;
+  border: 1px solid darkred;
+}
+
+.backbt svg,.backbt span{
+  vertical-align: middle;
+}
